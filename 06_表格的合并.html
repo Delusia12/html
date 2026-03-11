@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格的合并</title>
+</head>
+<body>
+    <table border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th colspan="2">家庭住址</th>
+            </tr>
+        </thead>
+    <tbody>
+        <tr>
+            <td>张三</td>
+            <td>张家嘴</td>
+            <td>刘家村</td>
+        </tr>
+    </tbody>
+    </table>
+    <br />
+    <table  border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <td>姓名</td>   
+                <td>性别</td>   
+                <td>住址</td>   
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">张三</th>
+                <th> 男</th>
+                <th> 张家界</th>
+            </tr>
+            <tr>
+                <th>#</th>
+                <th>#</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
